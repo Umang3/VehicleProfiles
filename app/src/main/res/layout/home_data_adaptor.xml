@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="56dp"
+    android:backgroundTint="@color/colorPrimary"
+    app:cardCornerRadius="15dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="MH12AB1234"/>
+        <TextView
+            android:id="@+id/textModelType"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textNumber"
+            android:text="Maruti Suzuiki Drive"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageHomeForward"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/forward_foreground"
+            android:layout_marginTop="10dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

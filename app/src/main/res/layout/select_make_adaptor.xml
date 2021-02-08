@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="56dp"
+    android:backgroundTint="@color/colorPrimary"
+    >
+
+        <TextView
+            android:id="@+id/textSelectMakeName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Maruti Suzuki"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:id="@+id/imageSelectMakeName"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/forward_foreground"
+            android:backgroundTint="#000"
+            />
+
+</androidx.cardview.widget.CardView>
